@@ -7,14 +7,17 @@
 </head>
 <body>
     <h1>Basic HTML Form</h1>
-    <fieldset>Name 
+    
         <form>
+            <fieldset>
+                <legend>Name</legend>
             <label for="Fname">First name</label><br>
             <input type="text>" id="Fname" name="Fname"><br>
             <label for="Lname">Last name</label><br>
             <input type="text" id="Lname" name="Lname">
     </fieldset><br>
-    <fieldset>Other Question<br><br>
+    <fieldset>
+        <legend>Other Questions</legend>
         <label for="text">Choose a drink:</label><br>
         <input type="radio" id="text" name="text">
         <label for="text">coffee</label><br>
@@ -37,7 +40,7 @@
         <label for="text">select a school</label><br>
         <select name="school" id="school">
             <option value="harvard">harvard</option>
-            <option value="batra">batra</option>
+            <option value="batra" selected>patra</option>
         </select><br>
         <label for="text">please provide comments:</label><br><br>
         <textarea name="text" id="text" cols="50" rows="10"></textarea>
