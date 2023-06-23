@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns:auto auto auto;
+            gap: 20px; 
+        }
+        
+
+    
+        .green{
+            background-color: green;
+            grid-column: 1/4;
+            height: 200px;
+        }
+        .blue{
+            background-color: blue;
+            height: 200px;
+        }
+        .grey-cont{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 20px;
+            grid-column: 1/4;
+            height: 200px;
+        }
+        .grey{
+            background-color:grey;
+        }
+        @media screen and (min-width:481px) and (max-width:768px){
+            .container{
+            display: grid;
+            grid-template-columns:auto auto auto;
+            gap: 20px; 
+        }
+        
+
+    
+        .green{
+            background-color: green;
+            grid-column: 1/4;
+            height: 200px;
+        }
+        .blue{
+            background-color: blue;
+            height: 200px;
+            grid-column: 1/4;
+        }
+        .grey-cont{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+            gap: 20px;
+          
+            height: 200px;
+        }
+        .grey{
+            background-color:grey;
+        }
+
+        }
+        @media screen and (max-width:480px){
+            
+        .container{
+            display: grid;
+            grid-template-columns:auto auto auto;
+            gap: 20px; 
+        }
+        
+
+    
+        .green{
+            background-color: green;
+            grid-column: 1/4;
+            height: 200px;
+        }
+        .blue{
+            background-color: blue;
+            height: 200px;
+            grid-column: 1/4;
+        }
+        .grey-cont{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 20px;
+            grid-column: 1/4;
+            height: 100px;
+        }
+        .grey{
+            background-color:grey;
+            grid-column: 1/5;
+            height: 100px;
+        }
+            
+       
+
+        }
+          
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="green"></div>
+    <div class="blue"></div>
+    <div class="blue"></div>
+    <div class="blue"></div>
+    <div class="grey-cont">
+        <di class="grey"></di>
+        <di class="grey"></di>
+        <di class="grey"></di>
+        <di class="grey"></di>
+    </div>
+</div>
+</body>
+</html>
