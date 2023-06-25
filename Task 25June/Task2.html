@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            animation-name: box;
+            animation-duration: 10s;
+            animation-delay: 1s;
+            
+        }
+
+@keyframes box {
+    0%{background:linear-gradient(rgb(200,255,207),rgb(180,240,070),rgb(155,240,120));left: 0px;top: 0px;}
+    25%{background:linear-gradient(rgb(200,255,207),rgb(0, 117, 250),rgb(155,240,120));left: 300px;top: 0px;}
+    50%{background:linear-gradient(rgb(200,255,207),rgb(180,240,070),rgb(225, 49, 0));left: 300px;top: 200px;}
+    75%{background:linear-gradient(rgb(200,255,207),rgb(247, 0, 226),rgb(155,240,120));left: 0px;top: 200px;}
+    100%{background:linear-gradient(rgb(200,255,207),rgb(180,240,070),rgb(0, 242, 255));left: 0px;top: 0px;}
+    
+}
+
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
